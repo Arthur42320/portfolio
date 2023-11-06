@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.logo{
+    width: 70px; 
+}
+.logo img{
+    width: 100%;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+header{
+    background: blue;
+    
+  }
+  #searchbar{
+    margin-left: 15%;
+    padding:25px;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+  }
+  .image{
+   width: 200px ; 
+  }
+
+.image img{
+    width: 100%;
+}
+.center{
+    text-align: center;
+}
+.titre{
+    color:violet;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+
+}
+
+.border{
+    border-top: solid 15px;
+    color:black;
+
+}
+.border1{
+    border-bottom: solid 15px;
+}
+.text{
+    font-family: 'Sedgwick Ave Display', cursive;
+    padding-left: 10px;
+}
+.titre1{
+    color:blue;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+}
+.background{
+    background-color: pink;
+}
+.vidéo{
+    width: 400px;
+    padding-left: 10px;
+}
+.rea{
+    font-family: 'Dancing Script', cursive;
+    text-decoration: underline;
+    color:red;
+
+}
