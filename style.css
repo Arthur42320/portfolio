@@ -6,8 +6,12 @@
 .flex{
     display: flex;
     flex-wrap: wrap;
-
 }
+
+.align-center{
+    align-items: center;
+}
+
 .logo{
     width: 70px; 
 }
@@ -17,18 +21,21 @@
 
 .between{
     justify-content: space-between;
+    text-align: right;
 }
 
 header{
     background: blue;
     
   }
+
+
   #searchbar{
-    margin-left: 15%;
-    padding:25px;
+    padding:5px;
     border-radius: 10px;
-    width: 100px;
+    width: 500px;
     text-align: center;
+    margin-right: 10px;
   }
   .image{
    width: 200px ; 
@@ -41,7 +48,7 @@ header{
     text-align: center;
 }
 .titre{
-    color:violet;
+    color:black;
     font-family: 'Dancing Script', cursive;
     text-decoration: underline;
 
@@ -56,16 +63,18 @@ header{
     border-bottom: solid 15px;
 }
 .text{
-    font-family: 'Sedgwick Ave Display', cursive;
+    font-family: 'Open Sans', sans-serif;
     padding-left: 10px;
+    padding-top: 20px;
 }
 .titre1{
-    color:blue;
+    color:black;
     font-family: 'Dancing Script', cursive;
     text-decoration: underline;
+    margin-top: 50px;
 }
 .background{
-    background-color: pink;
+    background-color: beige;
 }
 .vidéo{
     width: 400px;
@@ -74,6 +83,29 @@ header{
 .rea{
     font-family: 'Dancing Script', cursive;
     text-decoration: underline;
-    color:red;
+    color:black;
+    padding-top: 50px;
+    padding-bottom: 50px;
 
 }
+.text-black{
+    color: black;
+    text-decoration: underline;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 2s0px;
+  }
+  .zoom:hover {
+    transform: scale(1.05);
+  }
+  .zoom{
+    transition: transform 0.5s linear;
+  }
+  .droite{
+text-align: right;
+  }
+  .gauche{
+    text-align: left;
+  }
+  .centre{
+    text-align: center;
+  }
